@@ -10,7 +10,7 @@
 		</div>
 
 		<div class="table-body">
-		<div class="row" v-for="(item, index) in inCart">
+		<div class="row" v-for="(item) in inCart">
 			<div class="chek">
 				<input type="checkbox" name="chek" v-model="item.checkedProd">{{item.id}}
 			</div>			

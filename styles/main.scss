@@ -92,7 +92,6 @@ input[type="button"]{
   border-radius: 4px;
   color: white;
   border: 0;
-  font-family: Arial;
 }
 input[type="button"], input[type="search"] {
     line-height:normal !important;
@@ -248,7 +247,6 @@ align-self: center;
      border-right: 1px dotted black;
      display: flex;     
       align-items: center;
-      font-family: Arial;
      @media (max-width: 650px){
       width: calc(100% / 4 * 3);
     }
